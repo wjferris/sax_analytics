@@ -1719,7 +1719,7 @@ div#notebook {
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[5]:
+In&nbsp;[16]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -1727,6 +1727,7 @@ In&nbsp;[5]:
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
 
 <span class="n">window_size</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="n">alphabet</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;a&#39;</span><span class="p">,</span><span class="s">&#39;b&#39;</span><span class="p">,</span><span class="s">&#39;c&#39;</span><span class="p">,</span><span class="s">&#39;d&#39;</span><span class="p">,</span><span class="s">&#39;e&#39;</span><span class="p">,</span><span class="s">&#39;f&#39;</span><span class="p">,</span><span class="s">&#39;g&#39;</span><span class="p">,</span><span class="s">&#39;h&#39;</span><span class="p">]</span>
@@ -1778,7 +1779,7 @@ In&nbsp;[5]:
             <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sax_dict</span><span class="p">[</span><span class="n">key</span><span class="p">])</span>
     <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">alphabet</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">alphabet</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
      
-<span class="k">print</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -1789,7 +1790,15 @@ In&nbsp;[5]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
+<div class="output_area"><div class="prompt output_prompt">
+    Out[16]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&apos;abcdefghbcdefghcdefghdefghefghghhhbcdefghabcdefghbcdefghcdefghdefghefghfghghghhefghabcdefghabcdefghbcdefghcdefghdefghefghfghghhhabcdefghabcdefghbcdefghdefghefghfghghhdefghabcdefghabcdefghbcdefghbcdefghcdefghdefghefghfghfghghghhhabcdefghabcdefghbcdefghcdefghefghfghghhefghabcdefghabcdefghbcdefghcdefghdefghefghfghghhhabcdefghabcdefghbcdefghcdefghdefghefghfghghhhcdefghabcdefghbcdefghcdefghdefghfghghhghabcdefghabcdefghbcdefghbcdefghcdefghdefghdefghefghfghghghhhfgh&apos;
+</pre>
+</div>
 
 </div>
 
@@ -2199,7 +2208,7 @@ AABJRU5ErkJggg==
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[6]:
+In&nbsp;[17]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -2207,6 +2216,7 @@ In&nbsp;[6]:
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
 
 <span class="n">window_size</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="n">alphabet</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;a&#39;</span><span class="p">,</span><span class="s">&#39;b&#39;</span><span class="p">,</span><span class="s">&#39;c&#39;</span><span class="p">,</span><span class="s">&#39;d&#39;</span><span class="p">,</span><span class="s">&#39;e&#39;</span><span class="p">,</span><span class="s">&#39;f&#39;</span><span class="p">,</span><span class="s">&#39;g&#39;</span><span class="p">,</span><span class="s">&#39;h&#39;</span><span class="p">]</span>
@@ -2256,7 +2266,7 @@ In&nbsp;[6]:
             <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sax_dict</span><span class="p">[</span><span class="n">key</span><span class="p">])</span>
     <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">alphabet</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">alphabet</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -2267,7 +2277,15 @@ In&nbsp;[6]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
+<div class="output_area"><div class="prompt output_prompt">
+    Out[17]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&apos;bcdefghbcdefghcdefghdefghefghefghfghghbcdefghbcdefghbcdefghcdefghcdefghdefghefghefghfghghdefghbcdefghbcdefghcdefghcdefghdefghefghefghfghfghfghbcdefghbcdefghcdefghcdefghdefghefghfghghdefghbcdefghbcdefghbcdefghcdefghcdefghdefghdefghefghefghfghfghfghfghbcdefghghhhhhefghbcdefghbcdefghcdefghdefghefghefghfghghbcdefghbcdefghbcdefghcdefghcdefghdefghefghefghfghghdefghbcdefghbcdefghcdefghcdefghdefghefghefghfghfghfghbcdefghbcdefghcdefghcdefghdefghefghfghghdefghbcdefghbcdefghbcdefghcdefghcdefghdefghdefghefghefghfghfghfghghdefgh&apos;
+</pre>
+</div>
 
 </div>
 
@@ -2550,7 +2568,7 @@ fMMwjCrh/wNnZ4lBsh+76QAAAABJRU5ErkJggg==
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[7]:
+In&nbsp;[18]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -2558,6 +2576,7 @@ In&nbsp;[7]:
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
 
 <span class="n">window_size</span> <span class="o">=</span> <span class="mi">8</span>
 <span class="n">alphabet</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;a&#39;</span><span class="p">,</span><span class="s">&#39;b&#39;</span><span class="p">,</span><span class="s">&#39;c&#39;</span><span class="p">,</span><span class="s">&#39;d&#39;</span><span class="p">,</span><span class="s">&#39;e&#39;</span><span class="p">,</span><span class="s">&#39;f&#39;</span><span class="p">,</span><span class="s">&#39;g&#39;</span><span class="p">,</span><span class="s">&#39;h&#39;</span><span class="p">]</span>
@@ -2608,7 +2627,7 @@ In&nbsp;[7]:
             <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sax_dict</span><span class="p">[</span><span class="n">key</span><span class="p">])</span>
     <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">alphabet</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">alphabet</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -2619,7 +2638,15 @@ In&nbsp;[7]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
+<div class="output_area"><div class="prompt output_prompt">
+    Out[18]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&apos;abcdefghabcdefghbcdefghcdefghdefghefghfghghhhbcdefghabcdefghabcdefghbcdefghcdefghcdefghdefghefghfghghghhhbcdefghabcdefghabcdefghbcdefghcdefghcdefghdefghefghfghghghhhbcdefghabcdefghbcdefghbcdefghcdefghdefghfghghghhghabcdefghabcdefghabcdefghbcdefghbcdefghcdefghcdefghdefghefghefghfghfghghghhhghbcdefghghbcdefghfghfghbcdefghghbcdefghghbcdefghfghfghbcdefghghbcdefghghbcdefghfghfghbcdefghghbcdefghghbcdefghfghfghbcdefghghbcdefghghbcdefghfghfghbcdefghghbcdefghghbcdefghfghfghbcdefghfghdefgh&apos;
+</pre>
+</div>
 
 </div>
 
@@ -3071,7 +3098,7 @@ EhUGEREpUWEQEZESFQYRESlRYRARkRIVBhERKfkGIh2WUU9h5SsAAAAASUVORK5CYII=
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[8]:
+In&nbsp;[19]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3079,6 +3106,7 @@ In&nbsp;[8]:
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
 
 <span class="n">window_size</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="n">alphabet</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;a&#39;</span><span class="p">,</span><span class="s">&#39;b&#39;</span><span class="p">,</span><span class="s">&#39;c&#39;</span><span class="p">,</span><span class="s">&#39;d&#39;</span><span class="p">,</span><span class="s">&#39;e&#39;</span><span class="p">,</span><span class="s">&#39;f&#39;</span><span class="p">,</span><span class="s">&#39;g&#39;</span><span class="p">,</span><span class="s">&#39;h&#39;</span><span class="p">]</span>
@@ -3128,7 +3156,7 @@ In&nbsp;[8]:
             <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sax_dict</span><span class="p">[</span><span class="n">key</span><span class="p">])</span>
     <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">alphabet</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">alphabet</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -3139,7 +3167,15 @@ In&nbsp;[8]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
+<div class="output_area"><div class="prompt output_prompt">
+    Out[19]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&apos;abcdefghbcdefghbcdefghbcdefghcdefghcdefghcdefghdefghbcdefghabcdefghbcdefghbcdefghbcdefghbcdefghcdefghcdefghcdefghdefghbcdefghbcdefghcdefghdefghbcdefghbcdefghdefghbcdefghbcdefghdefghdefghbcdefghdefghefghdefghbcdefghdefghfghdefghcdefghfghfghdefghfghghefghdefghghhfghfghhhghhhhhhhh&apos;
+</pre>
+</div>
 
 </div>
 
@@ -3490,7 +3526,7 @@ wCoGi8VisbTAKgaLxWKxtMAqBovFYrG0wCoGi8VisbTAKgaLxWKxtMAqBovFYrG04P8DinF83u64
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[9]:
+In&nbsp;[21]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3498,6 +3534,7 @@ In&nbsp;[9]:
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="kn">import</span> <span class="n">norm</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">display</span>
 
 <span class="n">window_size</span> <span class="o">=</span> <span class="mi">10</span>
 <span class="n">alphabet</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;a&#39;</span><span class="p">,</span><span class="s">&#39;b&#39;</span><span class="p">,</span><span class="s">&#39;c&#39;</span><span class="p">,</span><span class="s">&#39;d&#39;</span><span class="p">,</span><span class="s">&#39;e&#39;</span><span class="p">,</span><span class="s">&#39;f&#39;</span><span class="p">,</span><span class="s">&#39;g&#39;</span><span class="p">,</span><span class="s">&#39;h&#39;</span><span class="p">]</span>
@@ -3547,7 +3584,7 @@ In&nbsp;[9]:
             <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sax_dict</span><span class="p">[</span><span class="n">key</span><span class="p">])</span>
     <span class="n">sax_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">alphabet</span><span class="p">[</span><span class="nb">len</span><span class="p">(</span><span class="n">alphabet</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">])</span>
 
-<span class="k">print</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
+<span class="n">display</span><span class="p">(</span><span class="s">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">sax_data</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -3558,7 +3595,15 @@ In&nbsp;[9]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
+<div class="output_area"><div class="prompt output_prompt">
+    Out[21]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&apos;abcdefghbcdefghcdefghdefghefghghhhbcdefghdefghghbcdefghabcdefghbcdefghcdefghdefghfghghhghabcdefghbcdefghbcdefghdefghefghfghghhcdefghghbcdefghghabcdefghabcdefghbcdefghdefghefghfghghhdefghabcdefghbcdefghcdefghdefghfghghhhcdefghfghabcdefghbcdefghcdefghdefghefghghghhbcdefghabcdefghbcdefghcdefghdefghefghfghghhfgh&apos;
+</pre>
+</div>
 
 </div>
 
